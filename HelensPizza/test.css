@@ -1,0 +1,219 @@
+@font-face{
+    font-family:Primary;
+    src: url("../Font/Centaur.ttf");
+}
+
+@font-face{
+  font-family:Secondary;
+  src: url("../Font/Lora-Regular.ttf")
+}
+
+@font-face{
+  font-family:Special;
+  src: url("../Font/AlgerianRegular.ttf")
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+  font-size: 14px;
+  background:#F4EEE9;
+}
+
+/*Form Beginning*/
+body .orderlist {
+  font-family:Primary;
+  font-size: 18px;
+  background:#B22222;
+}
+
+form  {
+  padding: 30px;
+  background: #800000;
+  color: #fff;
+  border-radius: 40px;
+}
+form label,
+form input,
+form button,
+form select{
+  border: 0;
+  margin-bottom: 12px;
+  display: block;
+  width: 100%;
+}
+form input,form select {
+  height: 34px;
+  line-height: 25px;
+  background: #fff;
+  color: #000;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+
+form select{
+  
+}
+
+form button{
+  height: 30px;
+  line-height: 30px;
+  background: #4885ed;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+form .error{
+  color: #FF0000;
+}
+.orderlist {
+    width: 600px;
+    margin: 25px auto;
+    padding:40px;
+    border-radius: 40px;
+  
+}
+/*Form End*/
+
+/*Navigation Beginning*/
+nav.primary{
+    width: 826px;
+    margin:30px auto;
+    height: 42px;
+    font-family:Special;
+    font-size:18px;
+}
+
+nav.primary ul li{
+    list-style: none;
+    display:block;    
+    width: 20%;
+    float:left;  
+    background-color:#800000;
+    margin:0 2.5%;
+    text-align: center;    
+    border-radius: 8px; 
+}
+nav.primary ul li a{
+    color:#F4EEE9;
+    text-decoration: none;    
+    padding:0.5em 0.7em;
+    display:block;    
+}
+
+nav.primary ul li a:hover{
+    color:#F4EEE9;
+    background:#B22222;
+    border-radius: 8px;     
+}
+/*Navigation End*/
+.right{
+  width:3%;
+}
+
+#location{
+  font-family:Primary;
+  font-size:18px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  width: 50%;
+}
+
+#footer {
+    font-family:Secondary;
+    font-size:16px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    padding: 20px;
+    width:50%;
+}
+
+* {box-sizing: border-box}
+
+/*Carousel Beginning*/
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+
+
+.center {
+    display: block;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.ingredients{
+  display: block;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/* Slides */
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:#800000;
+  color: white;
+}
+/*Carousel End*/
+
+#map {
+  margin-left: auto;
+  margin-right:auto;
+  width: 59%;
+  height: 400px;
+  background-color: grey;
+}
+
+#socialmedia{
+    display: block;
+    padding: 15px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
